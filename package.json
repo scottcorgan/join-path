@@ -1,6 +1,6 @@
 {
   "name": "join-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Join urls or system paths, even with undefined values",
   "main": "index.js",
   "scripts": {
@@ -23,11 +23,11 @@
   },
   "homepage": "https://github.com/scottcorgan/join-path",
   "devDependencies": {
-    "tap-spec": "^1.0.0",
-    "tape": "^3.0.0"
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
   },
   "dependencies": {
-    "as-array": "^0.1.2",
+    "as-array": "^1.0.0",
     "is-url": "^1.1.0",
     "url-join": "0.0.1"
   }
