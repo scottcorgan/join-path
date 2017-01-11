@@ -20,3 +20,8 @@ test('joins a url', function (t) {
 
   t.end();
 });
+
+test('joins a url without only tld', function (t) {
+  t.equal(join('http://test:3002/api/v1', '/some/path'), 'http://test:3002/api/v1/some/path', 'tld only with port');
+  t.end();
+});
